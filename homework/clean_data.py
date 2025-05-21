@@ -76,7 +76,7 @@ def save_data(df, output_file):
 def main(input_file, output_file, n=2):
     """Ejecuta la limpieza de datos"""
     #
-    # Este código es identico al anteior
+    # Este código es identico al anteior.
     #
     df = load_data(input_file)
     df = create_key(df, n)
